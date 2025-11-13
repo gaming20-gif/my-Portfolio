@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Github, Linkedin, Mail, ExternalLink, Heart, MessageCircle, Send } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, ExternalLink,  } from 'lucide-react';
 import img from './img/hitesh1.jpg'
 import { Phone, MapPin, Globe, Twitter, Instagram } from "lucide-react";
 
@@ -8,14 +8,6 @@ import logo from './img/portlogo1.png'
 export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
-  const [likes, setLikes] = useState(247);
-  const [hasLiked, setHasLiked] = useState(false);
-  const [comments, setComments] = useState([
-    { id: 1, name: "Sarah Chen", text: "Love the design! Super clean and modern 🎨", time: "2h ago" },
-    { id: 2, name: "Alex Kumar", text: "The animations are smooth, great work!", time: "5h ago" },
-    { id: 3, name: "Maria Garcia", text: "Can you share how you built this?", time: "1d ago" }
-  ]);
-  const [newComment, setNewComment] = useState('');
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -26,22 +18,8 @@ export default function Portfolio() {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  const handleLike = () => {
-    if (!hasLiked) {
-      setLikes(likes + 1);
-      setHasLiked(true);
-    }
-  };
-
-  const handleCommentSubmit = () => {
-    if (newComment.trim()) {
-      setComments([
-        { id: Date.now(), name: "You", text: newComment, time: "Just now" },
-        ...comments
-      ]);
-      setNewComment('');
-    }
-  };
+  
+  
 
   const projects = [
    
@@ -55,33 +33,33 @@ export default function Portfolio() {
   contact: "+91 99044 98153",
 }
 ,
-    {
-      title: "AI Dashboard",
-      desc: "Analytics platform with machine learning insights",
-      tech: ["Python", "TensorFlow", "Vue.js"],
-      color: "from-blue-500 to-cyan-500",
-      url: "https://ai-dashboard-demo.com",
-      client: "DataCorp Analytics",
-      contact: "+1 (555) 234-5678"
-    },
-    {
-      title: "Mobile Fitness App",
-      desc: "Track workouts and nutrition with social features",
-      tech: ["React Native", "Firebase"],
-      color: "from-green-500 to-emerald-500",
-      url: "https://fitness-tracker-app.com",
-      client: "HealthTech Solutions",
-      contact: "+1 (555) 345-6789"
-    },
-    {
-      title: "Design System",
-      desc: "Component library for enterprise applications",
-      tech: ["TypeScript", "Storybook", "CSS"],
-      color: "from-orange-500 to-red-500",
-      url: "https://design-system-docs.com",
-      client: "Enterprise Co.",
-      contact: "+1 (555) 456-7890"
-    }
+    // {
+    //   title: "AI Dashboard",
+    //   desc: "Analytics platform with machine learning insights",
+    //   tech: ["Python", "TensorFlow", "Vue.js"],
+    //   color: "from-blue-500 to-cyan-500",
+    //   url: "https://ai-dashboard-demo.com",
+    //   client: "DataCorp Analytics",
+    //   contact: "+1 (555) 234-5678"
+    // },
+    // {
+    //   title: "Mobile Fitness App",
+    //   desc: "Track workouts and nutrition with social features",
+    //   tech: ["React Native", "Firebase"],
+    //   color: "from-green-500 to-emerald-500",
+    //   url: "https://fitness-tracker-app.com",
+    //   client: "HealthTech Solutions",
+    //   contact: "+1 (555) 345-6789"
+    // },
+    // {
+    //   title: "Design System",
+    //   desc: "Component library for enterprise applications",
+    //   tech: ["TypeScript", "Storybook", "CSS"],
+    //   color: "from-orange-500 to-red-500",
+    //   url: "https://design-system-docs.com",
+    //   client: "Enterprise Co.",
+    //   contact: "+1 (555) 456-7890"
+    // }
   ];
 
   const skills = [
@@ -204,7 +182,8 @@ export default function Portfolio() {
             </h3>
             
             <p className="text-lg md:text-xl text-gray-400 mb-4 max-w-2xl animate-slide-up delay-200">
-              📍 Kutch, Gujarat, India | 🎓 B.com Graduate
+              📍 Kutch, Gujarat, India 
+              {/* 🎓 B.com Graduate */}
             </p>
             
             <p className="text-base md:text-lg text-gray-400 mb-8 max-w-3xl leading-relaxed animate-slide-up delay-300">
@@ -215,7 +194,7 @@ export default function Portfolio() {
             {/* Info Cards */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 max-w-3xl w-full animate-slide-up delay-400">
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 hover:border-purple-400 transition-all">
-                <div className="text-3xl font-bold text-purple-400 mb-1">25+</div>
+                <div className="text-3xl font-bold text-purple-400 mb-1">5</div>
                 <div className="text-sm text-gray-400">Projects Completed</div>
               </div>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 hover:border-pink-400 transition-all">
@@ -223,7 +202,7 @@ export default function Portfolio() {
                 <div className="text-sm text-gray-400">Years Experience</div>
               </div>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 hover:border-blue-400 transition-all">
-                <div className="text-3xl font-bold text-blue-400 mb-1">25+</div>
+                <div className="text-3xl font-bold text-blue-400 mb-1">5</div>
                 <div className="text-sm text-gray-400">Happy Clients</div>
               </div>
             </div>
@@ -235,7 +214,7 @@ export default function Portfolio() {
               >
                 View Work
               </button>
-              <button className="px-8 py-3 border-2 border-purple-400 rounded-full font-semibold hover:bg-purple-400/10 transition-all">
+              <button onClick={() => setActiveSection('contact')} className="px-8 py-3 border-2 border-purple-400 rounded-full font-semibold hover:bg-purple-400/10 transition-all">
                 Contact Me
               </button>
             </div>
