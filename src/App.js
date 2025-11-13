@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, ExternalLink,  } from 'lucide-react';
 import img from './img/hitesh1.jpg'
-import { Phone, MapPin, Globe, Twitter, Instagram } from "lucide-react";
+import { Phone, MapPin, Globe, Facebook, Instagram } from "lucide-react";
 
 import logo from './img/portlogo1.png'
 export default function Portfolio() {
@@ -433,7 +433,7 @@ export default function Portfolio() {
           className="p-4 bg-white/10 rounded-lg hover:bg-white/20 hover:scale-110 transition-all"
           aria-label="Twitter"
         >
-          <Facebookr className="w-6 h-6" />
+          <Facebook className="w-6 h-6" />
         </a>
         <a
           href="https://www.instagram.com/hitesh_050"
