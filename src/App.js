@@ -231,7 +231,7 @@ export default function Portfolio() {
   </a>
 
   <a
-    href="https://www.linkedin.com/in/hitesh-gagal-817b3a398/"
+    href="https://www.linkedin.com/in/hitesh-gagal-817b3a398"
     
     target="_blank"
     rel="noopener noreferrer"
@@ -239,7 +239,8 @@ export default function Portfolio() {
     <Linkedin className="w-6 h-6 hover:text-purple-400 cursor-pointer transition-colors" />
   </a>
 
-  <a href=" mailto:info@hiteshgagal5.com">
+  <a href=" mailto:info@hiteshgagal5.com" target="_blank"
+    rel="noopener noreferrer">
  
     <Mail className="w-6 h-6 hover:text-purple-400 cursor-pointer transition-colors" />
   </a>
@@ -359,7 +360,7 @@ export default function Portfolio() {
           <div className="flex-1">
             <h3 className="text-lg font-semibold mb-2">Phone</h3>
             <a 
-              href="tel:+919876543210" 
+              href="tel:+916352472801" 
               className="text-gray-400 hover:text-purple-400 transition-colors"
             >
               +91 63524 72801 
@@ -408,7 +409,7 @@ export default function Portfolio() {
       <h3 className="text-2xl font-bold mb-6 text-center">Connect With Me</h3>
       <div className="flex justify-center gap-4 flex-wrap">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/gaming20-gif"
           target="_blank"
           rel="noopener noreferrer"
           className="p-4 bg-white/10 rounded-lg hover:bg-white/20 hover:scale-110 transition-all"
@@ -417,7 +418,7 @@ export default function Portfolio() {
           <Github className="w-6 h-6" />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://linkedin.com/in/hitesh-gagal-817b3a398" 
           target="_blank"
           rel="noopener noreferrer"
           className="p-4 bg-white/10 rounded-lg hover:bg-white/20 hover:scale-110 transition-all"
@@ -426,16 +427,16 @@ export default function Portfolio() {
           <Linkedin className="w-6 h-6" />
         </a>
         <a
-          href="https://twitter.com/yourusername"
+          href="https://www.facebook.com/hitesh.ahir.513255"
           target="_blank"
           rel="noopener noreferrer"
           className="p-4 bg-white/10 rounded-lg hover:bg-white/20 hover:scale-110 transition-all"
           aria-label="Twitter"
         >
-          <Twitter className="w-6 h-6" />
+          <Facebookr className="w-6 h-6" />
         </a>
         <a
-          href="https://instagram.com/yourusername"
+          href="https://www.instagram.com/hitesh_050"
           target="_blank"
           rel="noopener noreferrer"
           className="p-4 bg-white/10 rounded-lg hover:bg-white/20 hover:scale-110 transition-all"
