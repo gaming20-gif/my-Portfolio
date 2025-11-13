@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-Portfolio/static/css/main.f0173d58.css",
-    "main.js": "/my-Portfolio/static/js/main.3cf7df04.js",
-    "static/js/453.a1dd3239.chunk.js": "/my-Portfolio/static/js/453.a1dd3239.chunk.js",
-    "static/media/portlogo1.png": "/my-Portfolio/static/media/portlogo1.f9862a999d1fe90f31fb.png",
-    "static/media/hitesh1.jpg": "/my-Portfolio/static/media/hitesh1.8f23c3b576ded66263eb.jpg",
-    "index.html": "/my-Portfolio/index.html",
-    "main.f0173d58.css.map": "/my-Portfolio/static/css/main.f0173d58.css.map",
-    "main.3cf7df04.js.map": "/my-Portfolio/static/js/main.3cf7df04.js.map",
-    "453.a1dd3239.chunk.js.map": "/my-Portfolio/static/js/453.a1dd3239.chunk.js.map"
+    "main.css": "/Hitesh-Gagal-Portfolio/static/css/main.f0173d58.css",
+    "main.js": "/Hitesh-Gagal-Portfolio/static/js/main.0c7106fb.js",
+    "static/js/453.a1dd3239.chunk.js": "/Hitesh-Gagal-Portfolio/static/js/453.a1dd3239.chunk.js",
+    "static/media/portlogo1.png": "/Hitesh-Gagal-Portfolio/static/media/portlogo1.f9862a999d1fe90f31fb.png",
+    "static/media/hitesh1.jpg": "/Hitesh-Gagal-Portfolio/static/media/hitesh1.8f23c3b576ded66263eb.jpg",
+    "index.html": "/Hitesh-Gagal-Portfolio/index.html",
+    "main.f0173d58.css.map": "/Hitesh-Gagal-Portfolio/static/css/main.f0173d58.css.map",
+    "main.0c7106fb.js.map": "/Hitesh-Gagal-Portfolio/static/js/main.0c7106fb.js.map",
+    "453.a1dd3239.chunk.js.map": "/Hitesh-Gagal-Portfolio/static/js/453.a1dd3239.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0173d58.css",
-    "static/js/main.3cf7df04.js"
+    "static/js/main.0c7106fb.js"
   ]
 }
