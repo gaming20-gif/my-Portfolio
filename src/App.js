@@ -442,7 +442,7 @@ export default function Portfolio() {
           <Github className="w-6 h-6" />
         </a>
         <a
-          href="https://linkedin.com/in/hitesh-gagal-817b3a398" 
+          href="https://www.linkedin.com/in/hitesh-ahir-683316398/" 
           target="_blank"
           rel="noopener noreferrer"
           className="p-4 bg-white/10 rounded-lg hover:bg-white/20 hover:scale-110 transition-all"
